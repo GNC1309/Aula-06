@@ -1,83 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
 *{
-    padding: 0;
-    margin: 0;
+     padding: 0;
+     margin: 0;
 }
 
-
-
-     
 body{
-    font-family: sans-serif;
-    
-}
-
-.Início{
-    left: 700px;
-    bottom: 1760px;
-    top: 60px;
-}
-
-.Cardápio{
-    left: 790px;
-    bottom: 1760px;
-    top: 60px;
-}
-
-.Contatos{
-    left: 900px;
-    bottom: 1760px;
-    top: 60px;
-}
-
-.Pedidos{
-    left: 1000px;
-    bottom: 1760px;
-    top: 60px;
+     font-family: 'Oswald', sans-serif;
 }
 
 .imagem{
-   
-    background-color:black;
-    right: 900px;
-    bottom: 1620px;
+     background-color: rgb(250, 169, 18);
 }
 
 h1{
-    color: red;
-    font-size: 50px;
-    top: 50px;
-    left: 175px;
-    bottom: 1760px;
+     color: red;
+     font-size: 48px;
 }
  
 .menu{
-    background-color: black;  
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
+     background-color: rgb(250, 169, 18);  
+     width: 100%;
+     display: flex;
+     position: fixed;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px;
 }
+
 .submenu{
      display: flex;
      margin-right: 25px;
+     
      justify-content: space-between;
      gap: 25px;
-     font-size: 25px;
+     font-size: 27px;
      color: red;
-
 }
 
 .logo{
-    display: flex;
-    align-items: center;
-
+     display: flex;
+     align-items: center;
 }
 
-p:hover{
-    cursor: pointer;
-    opacity: 0.3;
-   
+.paragrafos-selecionaveis:hover{
+     cursor: pointer;
+     opacity: 0.3;
+}
 
+main {
+     height: 100%;
+     padding-top: 250px;
+}
+
+.cardapio{
+    margin: 20px auto;
+    width: auto;
+    margin-top: 0;
+    color: red;
+    background-color: yellow ;
+    height: 700px;
+    padding: 50px;
+}
+
+.cardapio-conteudo{
+    border: 1px solid blue;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    height: 500px;
+}
+
+.calabresa-foto{
+      width: 300px;
+    
 }

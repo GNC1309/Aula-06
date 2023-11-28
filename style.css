@@ -3,54 +3,81 @@
     margin: 0;
 }
 
-nav{
-     display: flex;
-     position: fixed;
-     justify-content: space-between;
-     align-items: center;
-     
-}
+
+
      
 body{
     font-family: sans-serif;
     
 }
 
-
-
 .Início{
-    position: fixed;
     left: 700px;
     bottom: 1760px;
+    top: 60px;
 }
 
 .Cardápio{
-    position: fixed;
     left: 790px;
     bottom: 1760px;
-    top: 100px;
+    top: 60px;
 }
 
 .Contatos{
-    position: fixed;
     left: 900px;
     bottom: 1760px;
+    top: 60px;
 }
 
 .Pedidos{
-    position: fixed;
     left: 1000px;
     bottom: 1760px;
+    top: 60px;
 }
 
-h1{
-    position: fixed;
-    left: 200px;
-    bottom: 1760px;
-}
- 
 .imagem{
-    position: fixed;
+   
+    background-color:black;
+    right: 900px;
     bottom: 1620px;
 }
 
+h1{
+    color: red;
+    font-size: 50px;
+    top: 50px;
+    left: 175px;
+    bottom: 1760px;
+}
+ 
+.menu{
+    background-color: black;  
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.submenu{
+     display: flex;
+     margin-right: 25px;
+     justify-content: space-between;
+     gap: 25px;
+     font-size: 25px;
+     color: red;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+p:hover{
+    cursor: pointer;
+    opacity: 0.3;
+   
+
+}
